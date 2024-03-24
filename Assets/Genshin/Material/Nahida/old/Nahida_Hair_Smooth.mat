@@ -7,13 +7,11 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Nahida_Face
-  m_Shader: {fileID: 4800000, guid: 41967839717f3204caa5496de418121e, type: 3}
-  m_Parent: {fileID: 2100000, guid: be093b34928bb8c4c8989e87164ec8a8, type: 2}
+  m_Name: Nahida_Hair_Smooth
+  m_Shader: {fileID: 4800000, guid: d131ca64a8a14674180009fd04229625, type: 3}
+  m_Parent: {fileID: 2100000, guid: d20a50e51424b964884fb66b1fdcee8c, type: 2}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords:
-  - _IS_FACE
-  - _RIM
+  m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -25,27 +23,23 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: c8173390904a7b645897ba65867fe199, type: 3}
+    - _BaseTex:
+        m_Texture: {fileID: 2800000, guid: 93b996a47e5a98844a016b4c6691373a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FaceLightMap:
-        m_Texture: {fileID: 2800000, guid: 0200ed00e31c54948a45337b7de0b963, type: 3}
+    - _ILM:
+        m_Texture: {fileID: 2800000, guid: af5e3b8911e3f524faeba9abaaf41e03, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _FaceShadow:
-        m_Texture: {fileID: 2800000, guid: b6a8c8f09ec705e4aa2e4b96151d61c1, type: 3}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: 99624666ea9620a46bbeeb6e4255f52f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _ShadowRamp:
-        m_Texture: {fileID: 2800000, guid: db1c3553f2be9c448b6142d3a1e28972, type: 3}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: db4bce6331cb61a41846698cc24936ff, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
-    m_Floats:
-    - _IsFace: 1
-    - _OutlineZOffset: 0.5
-    - _UseCustomMaterialType: 1
-    - _UseRim: 1
+    m_Floats: []
     m_Colors: []
   m_BuildTextureStacks: []
